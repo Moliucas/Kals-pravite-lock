@@ -243,14 +243,28 @@
              pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
              split = string.split(pingvalue,'(')
              ping = tonumber(split[1])
-            if ping < 130 then
-                PredictionValue = 0.151
-        elseif ping > 120 then
-            getgenv().Predictio = 0.149
+                if ping > 200 then 
+            getgenv().Predictio = 0.171185
+        elseif ping < 190 then
+            getgenv().Predictio = 0.1694982
+        elseif ping < 180 then
+            getgenv().Predictio = 0.167513
+        elseif ping < 170 then
+            getgenv().Predictio = 0.164713
+        elseif ping < 160 then
+            getgenv().Predictio = 0.16142
+        elseif ping < 150 then
+            getgenv().Predictio = 0.157041
+        elseif ping < 140 then
+            getgenv().Predictio = 0.154313
+        elseif ping < 130 then
+            getgenv().Predictio = 0.151692
+        elseif ping < 120 then
+            getgenv().Predictio = 0.14917
         elseif ping > 110 then
             getgenv().Predictio = 0.146
         elseif ping < 100 then
-            getgenv().Predictio = 0.130340
+            getgenv().Predictio = 0.1384
         elseif ping < 90 then
             getgenv().Predictio = 0.1368
         elseif ping < 80 then
