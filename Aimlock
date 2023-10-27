@@ -17,7 +17,7 @@
         CircleFOV = 500,
         CircleColor = Color3.new(255, 255, 255),
         CircleThickness = 2,
-        CircleFilled = true,
+        CircleFilled = false,
         CircleTransparency = 0.10,
         CircleTransparencyOutline = 0,
         OutlineColor = Color3.new(255, 255, 255),
