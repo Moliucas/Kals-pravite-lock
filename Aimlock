@@ -2,7 +2,7 @@
     Settings = {
         Kalslock = {
         Enabled = true,
-        Key = "q",
+        Key = "c",
         showdot = true,
         airshots = true,
         notifaction = true,
